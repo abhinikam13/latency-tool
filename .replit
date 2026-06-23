@@ -1,1 +1,1 @@
-run = "cd Backend && pip install -r requirements.txt && python3 app.py"
+run = "cd Backend && pip install --upgrade pip && pip install -r requirements.txt && python3 startup.py"
