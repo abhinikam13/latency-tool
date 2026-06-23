@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.env
+.venv/
+venv/
+node_modules/
+build/
+dist/
+*.log
+uploads/
+reports/
+logs.csv
+LATENCY_REPORT.txt
+REPORT_*.txt
+.DS_Store
+
+# Exclude backend files except app.py
+Backend/*.py
+!Backend/app.py
+Backend/__pycache__/
+Backend/.pytest_cache/
